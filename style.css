@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.image-container {
+    margin: 10vh 25vw;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
